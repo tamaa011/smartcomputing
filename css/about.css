@@ -1,0 +1,87 @@
+* {
+    font-family: sans-serif,monospace,fantasy;
+}
+/*start nav*/
+.navbar {
+    font-size: 20px;
+    margin: -1px;
+}
+.navbar .container-fluid {
+    background-color:#222222;
+}
+.navbar .navbar-header a {
+    color: #FF6500;
+    font-size: 35px;
+    font-style: bold;
+}
+.navbar .nav li .hover {
+    color: white;
+    padding-left: 120px;
+}
+.navbar .nav li .hover:hover {
+    color: #FF6500;
+    background-color:#222222;
+    transition: 0.3s ease-in-out;
+}
+/*end nav*/
+/*start pic*/
+
+.pic img {
+    width: 100%;
+    height: 810.92px;
+    background-size: cover;
+    position: relative;
+    
+}
+/*end pic*/
+/*start about*/
+.about {
+    background-color: #f2f2f2;
+    font-size: 24px;
+}
+.about p {
+    color: black;
+}
+.about ol li {
+    font-size: 24px;
+    color: black;
+}
+
+
+.collapsible {
+    background-color: #f2f2f2;
+    color:  #FF6500;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s ease-in-out;
+}
+
+.active, .collapsible:hover {
+    background-color: #0443D3;
+}
+
+.content {
+    padding: 8px 22px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+/*end about*/
+/*start footer*/
+footer p {
+    background-color: #222222;
+    color: white;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+}
+footer span {
+    color: #FF6500;
+    font-size: 16px;
+}

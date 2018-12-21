@@ -1,0 +1,76 @@
+* {
+    font-family: sans-serif,monospace,fantasy;
+    overflow-x: hidden;
+}
+/*start nav*/
+.navbar {
+    font-size: 20px;
+    margin: -1px;
+}
+.navbar .container-fluid {
+    background-color: #222222;
+}
+.navbar .navbar-header a {
+    color: #FF6500;
+    font-size: 35px;
+    font-style: bold;
+}
+.navbar .nav li .hover {
+    color: white;
+    padding-left: 120px;
+}
+.navbar .nav li .hover:hover {
+    color: #FF6500;
+    background-color:#222222;
+    transition: 0.3s ease-in-out;
+}
+/*end nav*/
+/*start pic 2*/
+.us img {
+    width: 100%;
+}
+/*end pic 2*/
+/*people*/
+.board p {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.card {
+    width: 280px;
+    height: 180px;
+    margin: 50px auto;
+    border: 1px solid #00A600;
+    text-align: center;
+}
+.board .text {
+    font-size: 20px;
+}
+.board .text h2 {
+    color: black;
+}
+.board .text p {
+    font-size: 17px;
+    font-weight: bold;
+}
+.board .text .aa li {
+    list-style-type: none;
+    margin-left: -40px;
+    color: black;
+}
+
+/*end*/
+/*start footer*/
+footer p {
+    background-color: #222222;
+    color: white;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+}
+footer span {
+    color: #FF6500;
+    font-size: 16px;
+}
