@@ -1,45 +1,61 @@
 * {
     font-family: sans-serif,monospace,fantasy;
 }
-/*start nav*/
+/*/Start navbar/*/
+.one {
+        border-top: 3px solid #FF6900;
+        border-bottom: 3px solid #0545D7;
+
+
+}
+.one h1 {
+    margin-left: 5px;
+}
 .navbar-default {
-    background-color: #222222;
+    background-color: #FFFFFF;
     border-color: transparent;
+    
+
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #FFF;
-}
-.navbar-default .navbar-nav>li>a:hover{color:#FF6500;}
 
-.navbar-default .navbar-nav > li > a{
-	color: #FFF;
-	font-size: 20px;
-/*	text-transform: uppercase;*/
-    font-family: 'B612', sans-serif;
-    margin-top: -10px;
-    padding: 15px;
 }
-.navbar .te{
-	font-size: 33px;
-    margin-top: 6px;
-    color: #FF6500;
+.navbar-default .navbar-nav>li>a:hover{color:#FF6900;}
+.navbar .collapse .nav li .active {
+    color:#FF6900;
+    border-bottom: 2px solid #FF6900;
+}
+.navbar .collapse .nav li .bor {
+    height: 45px;
+    background-color: #FF6900;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #241E1E;
+	font-size: 20px;
+    padding: 13px;   
+    margin-left: 20px
 }
 .navbar-right{
 	padding-top: 15px;
+    
 }
-
-/*end nav*/
+.one .navbar-toggle {
+    margin-top: 24px;
+}
+/*/End navbar/*/
 /*start pic*/
 .pic {
-    height: 600px;
     overflow: hidden;
 }
 
 .pic img {
     width: 100%;
-    height: 700px;
+    height: 550px;
     background-size: cover;
-    position: relative;
+    margin-bottom: -50px;
     
 }
 /*end pic*/
@@ -64,7 +80,6 @@ margin: 30px;
 /*end info*/
 /*start work*/
 .work {
-    background-color: #0443D3;
     margin-top: -21px;
 }
 .work h2 {
@@ -72,11 +87,10 @@ margin: 30px;
     padding-top: 10px;
     padding-bottom: 5px;
     font-style: bold;
-    color: #FF6500;
 }
 .work p {
     font-size: 20px;
-    color: white;
+    color: black;
     word-wrap: break-word;
 }
 .work ol {
