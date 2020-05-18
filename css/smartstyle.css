@@ -36,7 +36,8 @@
 	color: #241E1E;
 	font-size: 20px;
     padding: 13px;   
-    margin-left: 20px
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar-right{
 	padding-top: 15px;
@@ -114,5 +115,5 @@ footer p {
 }
 footer span {
     color: #FF6500;
-    font-size: 16px;
+    font-size: 12px;
 }

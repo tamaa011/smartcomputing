@@ -37,7 +37,8 @@
 	color: #241E1E;
 	font-size: 20px;
     padding: 13px;   
-    margin-left: 20px
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .navbar-right{
 	padding-top: 15px;
@@ -49,23 +50,25 @@
 /*/End navbar/*/
 /*start about*/
 .panel-group {
-    margin-top: 20px
+    margin-top: 20px;
+    overflow: hidden;
 }
 .panel-group .panel {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .panel-group a {
-    font-size: 25px;
+    font-size: 20px;
 }
 .panel-group a:hover {
     color: #FF6900;
 }
-.panel-group .collapse {
-    font-size: 20px;
+.panel-group .panel-body {
+    font-size: 18px;
 }
 /*end about*/
 /*start footer*/
+
 footer p {
     background-color: #222222;
     color: white;
@@ -75,5 +78,5 @@ footer p {
 }
 footer span {
     color: #FF6500;
-    font-size: 16px;
+    font-size: 12px;
 }
